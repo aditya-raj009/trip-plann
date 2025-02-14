@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trip plain</title>
+
+<link rel="stylesheet" href="styles.css">
+ 
+
+</head>
+
+<body>
+    
+
+    
+
+    <form action="submit.html" method="GET">
+        <h2>Name</h2>
+        <div>
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Enter your name" required>
+        </div>
+
+        <h2>Number of members: </h2>
+        <div>
+            <label for="members">Members</label>
+            <select id="member" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <h5>member's name </h5>
+        <div>
+            <label for="Members">Members</label>
+            <input id="name" type="text" placeholder="Enter members name">
+
+        </div>
+        <div>
+            <h4>select the place:</h4>
+            <div>
+                <input place="Goa" type="radio" name="Goa" value="Goa">
+                <label for="Goa"> Goa</label>
+            </div>
+            <div>
+                <input place="Mnali" type="radio" name="Mnali" value="Mnali">
+                <label for="Mnali">Mnali</label>
+            </div>
+            <div>
+                <input place="Delhi" type="radio" name="Delhi" value="Delhi">
+                <label for="Delhi">Delhi</label>
+            </div>
+            <div>
+                <input place="Patna" type="radio" name="Patna" value="patna">
+                <label for="patna">Patna</label>
+            </div>
+
+            <div>
+                <label for="comments">comments</label>
+                <textarea id="comments" placeholder="Enter your comments" row="4"></textarea>
+            </div>
+
+            <div>
+                <input id="terms" type="checkbox" required>
+                <label for="terms">I agree</label>
+            </div>
+            <button type="submit">Submit</button>
+
+    </form>
+</body>
+
+
+</html>
